@@ -1,0 +1,2 @@
+class Validate < ApplicationRecord
+end

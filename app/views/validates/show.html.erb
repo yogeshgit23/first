@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @validate.name %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @validate.password %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @validate.email %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @validate.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @validate.state %>
+</p>
+
+<p>
+  <strong>Pincode:</strong>
+  <%= @validate.pincode %>
+</p>
+
+<%= link_to 'Edit', edit_validate_path(@validate) %> |
+<%= link_to 'Back', validates_path %>
